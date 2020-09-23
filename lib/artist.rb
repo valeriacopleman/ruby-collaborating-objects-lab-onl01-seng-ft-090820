@@ -33,7 +33,5 @@ class Artist
     add_song(song)
   end
   
-  def self.print_songs
-    self.print_songs
-  end
+  
 end
