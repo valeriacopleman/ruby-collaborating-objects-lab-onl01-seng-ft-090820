@@ -6,13 +6,8 @@ class Song
   
   def initialize(name)
     @name = name
-    #save
     @@all << self
   end
-  
-  #def save
-    #@@all << self 
-  #end
   
   def self.all 
     @@all 
