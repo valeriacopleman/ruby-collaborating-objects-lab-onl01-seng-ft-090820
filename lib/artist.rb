@@ -32,9 +32,7 @@ class Artist
     
   end
   
-  def print_songs
-    self.all.select {|song| song.artist == self}
-  end
+  
 
   
 end
